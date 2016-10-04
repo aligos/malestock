@@ -203,7 +203,7 @@ svg.cart-icon-3 {
   border: none;
   border-radius: 0;
   float: right;
-  position: absolute;
+  position: fixed;
   z-index: 1001;
 }
 
@@ -219,4 +219,32 @@ svg.cart-icon-3 {
   padding: 15px;
   position: absolute;
   left: 0;
+}
+
+/* Content Container */
+
+.content-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-container {
+  width: 480px;
+  background: #212121;
+}
+
+.product-image {
+		text-align: center;
+}
+
+.product-title {
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.product-description {
+  padding: 10px;
 }
