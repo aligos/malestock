@@ -235,6 +235,16 @@ svg.cart-icon-3 {
   background: #212121;
 }
 
+@media(max-width: 500px) {
+  .content-container {
+    width: 100%;
+  }
+
+  .media-item__img {
+    max-width: 100%;
+  }
+}
+
 .product-image {
 		text-align: center;
 }
