@@ -90,7 +90,7 @@ svg {
 
 .toggle {
   width: 70px;
-  background: #212121;
+  background: transparent;
   position: fixed;
   z-index: 1000;
   top: 0;
